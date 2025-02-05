@@ -1,0 +1,2 @@
+jupyter nbconvert --to notebook --inplace --execute --allow-errors --ClearMetadataPreprocessor.enabled=true --ClearMetadataPreprocessor.clear_notebook_metadata=false *.ipynb && jupyter nbconvert --to script --output-dir=.temp *.ipynb && autopep8 .temp/. --recursive --diff && flake8 . --count --exit-zero --extend-ignore E402,W291 --max-complexity=10 --max-line-length=127 --statistics && rm -rf .temp
+jupyter lab --ServerApp.open_browser=false --ServerApp.allow_remote_access=true --IdentityProvider.token="" --IdentityProvider.password_required=false

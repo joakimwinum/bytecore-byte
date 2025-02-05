@@ -49,9 +49,9 @@ To start Jupyter Lab, run:
 jupyter lab
 ```
 
-### Gitpod
+### Codespaces
 
-For a pre-configured development environment, use Gitpod by clicking [here](https://gitpod.io/#https://github.com/joakimwinum/bytecore-byte).
+For a pre-configured development environment, use Codespaces by clicking [here](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=joakimwinum/bytecore-byte).
 
 ### Binder
 
