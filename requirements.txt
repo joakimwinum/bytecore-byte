@@ -1,4 +1,4 @@
 autopep8>=2.3.2,<2.4.0
 flake8>=7.5.0,<7.6.0
-jupyterlab>=4.6.5,<4.7.0
+jupyterlab>=4.6.6,<4.7.0
 bytecorecompiler==1.0.4
